@@ -436,7 +436,7 @@ export async function createReportingSheetFromWorkbook(buffer: Buffer): Promise<
   });
 
   const spreadsheetId = createRes.data.spreadsheetId!;
-  const spreadsheetUrl = createRes.data.spreadsheetsUrl ?? createRes.data.spreadsheetUrl!;
+  const spreadsheetUrl = createRes.data.spreadsheetUrl!;
 
   const writeTab = async <T extends Record<string, any>>(
     title: string,
