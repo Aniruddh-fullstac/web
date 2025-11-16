@@ -396,7 +396,7 @@ function rowsToValues<T extends Record<string, any>>(
 ): (string | number | null)[][] {
   return rows.map((row) =>
     columns.map((c) => {
-      const v = row[c];
+      const v: any = row[c];
       if (v instanceof Date) return v.toISOString();
       return v ?? null;
     }),
