@@ -1,0 +1,22 @@
+{
+  "visualization": {
+    "id": "fevicryl_social_dashboard",
+    "label": "Fevicryl Social Dashboard",
+    "description": "Multi-platform social dashboard (Facebook, Instagram, Youtube) with tabs and comparison view.",
+    "iconUrl": "https://www.gstatic.com/images/icons/material/system/2x/insights_black_48dp.png",
+    "datasource": {
+      "supportsMultipleFields": true,
+      "supportsDrilldown": false
+    }
+  },
+  "company": "Fevicryl",
+  "supportUrl": "https://example.com",
+  "resources": {
+    "js": [
+      "index.js"
+    ],
+    "config": "config.json"
+  }
+}
+
+

@@ -1,0 +1,119 @@
+{
+  "data": {
+    "tables": [
+      {
+        "id": "main",
+        "label": "Main table",
+        "groups": [
+          {
+            "id": "dimensions",
+            "label": "Dimensions",
+            "items": [
+              {
+                "id": "platform",
+                "label": "Platform (Facebook/Instagram/Youtube)",
+                "type": "DIMENSION",
+                "required": true
+              },
+              {
+                "id": "date",
+                "label": "Date",
+                "type": "DIMENSION",
+                "required": false
+              }
+            ]
+          },
+          {
+            "id": "metrics",
+            "label": "Metrics",
+            "items": [
+              {
+                "id": "followers",
+                "label": "Followers",
+                "type": "METRIC",
+                "required": false
+              },
+              {
+                "id": "impressions",
+                "label": "Impressions",
+                "type": "METRIC",
+                "required": false
+              },
+              {
+                "id": "reach",
+                "label": "Reach",
+                "type": "METRIC",
+                "required": false
+              },
+              {
+                "id": "engagementRate",
+                "label": "Engagement Rate",
+                "type": "METRIC",
+                "required": false
+              },
+              {
+                "id": "videoViews",
+                "label": "Video Views",
+                "type": "METRIC",
+                "required": false
+              },
+              {
+                "id": "likes",
+                "label": "Likes",
+                "type": "METRIC",
+                "required": false
+              },
+              {
+                "id": "comments",
+                "label": "Comments",
+                "type": "METRIC",
+                "required": false
+              },
+              {
+                "id": "shares",
+                "label": "Shares",
+                "type": "METRIC",
+                "required": false
+              },
+              {
+                "id": "saves",
+                "label": "Saves",
+                "type": "METRIC",
+                "required": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "style": {
+    "tabColors": {
+      "id": "tabColors",
+      "label": "Platform colors",
+      "type": "OBJECT",
+      "elements": [
+        {
+          "id": "facebookColor",
+          "label": "Facebook color",
+          "type": "COLOR",
+          "defaultValue": "#1877F2"
+        },
+        {
+          "id": "instagramColor",
+          "label": "Instagram color",
+          "type": "COLOR",
+          "defaultValue": "#E1306C"
+        },
+        {
+          "id": "youtubeColor",
+          "label": "YouTube color",
+          "type": "COLOR",
+          "defaultValue": "#FF0000"
+        }
+      ]
+    }
+  }
+}
+
+
